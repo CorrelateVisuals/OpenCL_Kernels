@@ -1,0 +1,57 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+OpenCL_Device_Information/.vs/OpenCL_Device_Information/FileContentIndex/b56f0ea5-2186-4f3a-9200-8611e8cc9c95.vsidx
+OpenCL_Device_Information/.vs/OpenCL_Device_Information/FileContentIndex/read.lock
+OpenCL_Device_Information/.vs/OpenCL_Device_Information/v17/.suo
+OpenCL_Device_Information/.vs/OpenCL_Device_Information/v17/Browse.VC.db
+OpenCL_Device_Information/.vs/OpenCL_Device_Information/v17/Browse.VC.db-shm
+OpenCL_Device_Information/.vs/OpenCL_Device_Information/v17/Browse.VC.db-wal
+OpenCL_Device_Information/.vs/OpenCL_Device_Information/v17/Browse.VC.opendb
+OpenCL_Device_Information/.vs/OpenCL_Device_Information/v17/ipch/AutoPCH/50c232723edb0035/MAIN.ipch
+OpenCL_Device_Information/x64/Debug/OpenCL_D.27306727.tlog/CL.command.1.tlog
+OpenCL_Device_Information/x64/Debug/OpenCL_D.27306727.tlog/Cl.items.tlog
+OpenCL_Device_Information/x64/Debug/OpenCL_D.27306727.tlog/CL.read.1.tlog
+OpenCL_Device_Information/x64/Debug/OpenCL_D.27306727.tlog/CL.write.1.tlog
+OpenCL_Device_Information/x64/Debug/OpenCL_D.27306727.tlog/link.command.1.tlog
+OpenCL_Device_Information/x64/Debug/OpenCL_D.27306727.tlog/link.read.1.tlog
+OpenCL_Device_Information/x64/Debug/OpenCL_D.27306727.tlog/link.write.1.tlog
+OpenCL_Device_Information/x64/Debug/OpenCL_D.27306727.tlog/OpenCL_Device_Information.lastbuildstate
+OpenCL_Device_Information/x64/Debug/OpenCL_Device_Information.exe.recipe
+OpenCL_Device_Information/x64/Debug/OpenCL_Device_Information.ilk
+OpenCL_Device_Information/x64/Debug/OpenCL_Device_Information.log
+OpenCL_Device_Information/x64/Debug/OpenCL_Device_Information.pdb
+OpenCL_Device_Information/x64/Debug/OpenCL_Device_Information.vcxproj.FileListAbsolute.txt
+OpenCL_Device_Information/x64/Debug/vc143.idb
+OpenCL_Device_Information/x64/Debug/vc143.pdb
+OpenCL_Device_Information/OpenCL_Device_Information.vcxproj.filters
+OpenCL_Device_Information/OpenCL_Device_Information.vcxproj.user
