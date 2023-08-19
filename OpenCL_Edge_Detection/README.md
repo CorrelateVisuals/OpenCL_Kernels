@@ -1,19 +1,20 @@
-# Box Blur
-An OpenCL-based image blurring program that applies a box blur filter to input images. The code leverages the OpenCL framework to perform the blurring operation efficiently on GPU devices. The program loads an image file, processes it through a box blur kernel, and outputs the blurred image. The blur effect is achieved by averaging the pixel values within a specified neighborhood for each pixel, resulting in a smoother appearance. The code supports multiple passes of the box blur filter for enhanced blurring, and the output images are saved with a "_blur.jpg" suffix. The repository aims to provide a clear and streamlined implementation of the box blur algorithm using OpenCL, making it suitable for educational purposes and further development.
+# Edge Detection
+Detect edges in an image, considering upper and lower brightness thresholds. The algorithm determines whether a pixel should be set to white or black in order to highlight or suppress certain features within the image. This approach offers fine-grained control over the appearance of the output, allowing the preservation of specific details while discarding others based on brightness characteristics.
 
-![Image](https://github.com/CorrelateVisuals/OpenCL_Methods/blob/main/OpenCL_Box_Blur/M20.PNG?raw=true)
+![Image](https://github.com/CorrelateVisuals/OpenCL_Methods/blob/main/OpenCL_Edge_Detection/M61.PNG?raw=true)
 Original © GRANTECAN S.A.
 ```
-Object Name: 	M20, The Trifid Nebula
-Telescope:	Grantecan / Nasmyth-B
-Instrument:	OSIRIS
-Filter:	        G (481nm), R (641nm), Z (970nm)
-Color:	        Blue (G), Green (R), Red (Z)
-Exposure:	5 x 10 secs (G and R), 2 x 10 secs (Z). R applied with luminance
-Field of View:	Approx. 8.0' x 8.0'
+Object Name:	Messier 61 / NGC 4303
+Telescope:	Grantecan / Cassegrain
+Instrument:	OSIRIS (OSIRIS+)
+Filter:	            G (481nm), R (641nm), I (770 nm), Z (970 nm)
+Color:	            Blue (R), Green (G), Red (I+Z)
+Exposure:	5 and 30 secs (G, R, I, Z)
+Field of View:	Approx. 6' x 6'
 Orientation:	North is up, East is left
-Position:	RA(J2000.0) = 18h02m23s
-Dec(J2000.0) = -23°01'50"
+Position:	RA(J2000.0) = 12h21m55s
+Dec(J2000.0) = 04°28'28"
+Image processing:	Carlos Luna
 ```
-![Image](https://github.com/CorrelateVisuals/OpenCL_Methods/blob/main/OpenCL_Box_Blur/M20_blur.PNG?raw=true)
-Blurred 100 passes © GRANTECAN S.A.
+![Image](https://github.com/CorrelateVisuals/OpenCL_Methods/blob/main/OpenCL_Edge_Detection/M61_edge_detection.PNG?raw=true)
+Edge detection © GRANTECAN S.A.
