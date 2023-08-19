@@ -4,7 +4,7 @@
 #include "STB_Image_Load.h"
 #include "STB_Image_Write.h"
 
-const int numPasses = 30;
+const int numPasses = 100;
 
 const char* BoxBlur_OpenCL = R"(
     __kernel void boxBlur(__global uchar* inputImageRGBA, __global uchar* outputImageRGBA, int width, int height) {
@@ -113,7 +113,7 @@ int main(int argc, char** argv) {
   std::string fileNameOut = argv[1];
   std::string baseFileName =
       fileNameOut.substr(0, fileNameOut.find_last_of("."));
-  std::string newFileName = baseFileName + "_blur.jpg";
+  std::string newFileName = baseFileName + "_blur.PNG";
   stbi_write_png(newFileName.c_str(), width, height, 4, outputImageData,
                  sizeof(cl_uchar4) * width);
 
