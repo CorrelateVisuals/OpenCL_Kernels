@@ -16,4 +16,4 @@ Position:	RA(J2000.0) = 18h02m23s
 Dec(J2000.0) = -23°01'50"
 ```
 ![Image](https://github.com/CorrelateVisuals/OpenCL_Methods/blob/main/OpenCL_Box_Blur/M20_blur.PNG?raw=true)
-Blurred © GRANTECAN S.A.
+Blurred 100 passes © GRANTECAN S.A.
