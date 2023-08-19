@@ -1,0 +1,2 @@
+# Graph Traversal
+This code employs OpenCL to perform a parallel Breadth-First Search (BFS) traversal on a graph represented by an adjacency matrix. The bfs kernel carries out BFS traversal, and the main function manages the OpenCL setup, data transfers, and kernel execution. It computes and prints the nodes visited during BFS traversal. The essential steps include OpenCL setup, data handling, kernel execution, and results extraction.
