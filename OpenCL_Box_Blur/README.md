@@ -7,8 +7,8 @@ Original © GRANTECAN S.A.
 Object Name: 	M20, The Trifid Nebula
 Telescope:	Grantecan / Nasmyth-B
 Instrument:	OSIRIS
-Filter:	    G (481nm), R (641nm), Z (970nm)
-Color:	    Blue (G), Green (R), Red (Z)
+Filter:	        G (481nm), R (641nm), Z (970nm)
+Color:	        Blue (G), Green (R), Red (Z)
 Exposure:	5 x 10 secs (G and R), 2 x 10 secs (Z). R applied with luminance
 Field of View:	Approx. 8.0' x 8.0'
 Orientation:	North is up, East is left
