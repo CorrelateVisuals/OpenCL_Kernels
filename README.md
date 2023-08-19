@@ -1,2 +1,2 @@
-# OpenCL methods
- A collection of OpenCL methods.
+# OpenCL kernels
+ A collection of OpenCL kernels.
