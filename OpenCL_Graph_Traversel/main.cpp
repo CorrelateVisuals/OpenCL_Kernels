@@ -1,3 +1,5 @@
+
+#pragma OPENCL EXTENSION CL_KHR_fp64 : enable
 #include <CL/opencl.h>
 #include <iostream>
 
